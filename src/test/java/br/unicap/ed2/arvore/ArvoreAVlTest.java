@@ -130,7 +130,6 @@ public class ArvoreAVlTest {
         a.inserir(5);
         a.inserir(70);
         a.inserir(40);
-        a.inserir(80);
         a.inserir(75);
         NoAVL aux = a.procurar(75);
         assertTrue( aux != null );
@@ -139,6 +138,6 @@ public class ArvoreAVlTest {
         assertTrue( auxEsq != null );
         assertTrue( auxEsq.getChave() == 70 );
         assertTrue( auxDir != null );
-        assertTrue( auxDir.getChave() == 80 );
+        
     }
 }
